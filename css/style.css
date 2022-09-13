@@ -60,7 +60,7 @@
     height: 20vw;
     padding: 5px; } }
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
   .main__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
