@@ -1,7 +1,10 @@
-.logo{
-    width: 10vw;    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.navBar{
-    background-color: rgb(247, 175, 237) !important;
-}
+@import './header.scss';
+
+@import './productos.scss';
+

@@ -1,0 +1,13 @@
+.logo{
+    width: 33vw;    
+}
+
+.navBar{
+    background-color: rgb(247, 175, 237) !important;
+}
+
+
+@media (min-width: 992px){
+    .logo{ width: 20vw;
+    }
+}
