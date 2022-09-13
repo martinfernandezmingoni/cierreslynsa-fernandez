@@ -1,11 +1,11 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import './variables/colores';
+@import './variables/fuentes';
+@import './variables/_extend.scss';
 
-@import './variables/header';
+@import './base/estilosgenerales';
+@import './header';
+@import './productos';
+@import './body';
 
-@import './variables/productos';
 
-@import './variables/mediaqueries';
+@import './mediaqueries';
