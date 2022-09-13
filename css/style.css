@@ -17,29 +17,29 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "productos"; }
-
-.productos {
-  grid-area: productos; }
-  .productos__img {
+  .main__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "productos"; }
+  .main__productos {
+    grid-area: productos;
+    flex-wrap: wrap; }
+  .main__img {
     width: 70vw;
     padding: 5px;
     display: flex; }
 
+@media (min-width: 992px) {
+  .logo {
+    width: 20vw; } }
+
 @media (min-width: 600px) {
-  .main__productos {
-    display: flex;
-    flex-direction: row; }
-  .main .grid {
+  .main__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -48,10 +48,36 @@
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "productos productos"; }
-  .main .productos {
-    grid-area: productos; }
-    .main .productos__img {
-      display: inline-flex;
-      flex-direction: row;
-      width: 30vw;
-      padding: 5px; } }
+  .main__productos {
+    grid-area: productos;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+  .main__img {
+    width: 35vw;
+    height: 20vw;
+    padding: 5px; } }
+
+@media (min-width: 992px) {
+  .main__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "productos productos"; }
+  .main__productos {
+    grid-area: productos;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+  .main__img {
+    width: 25vw;
+    height: 20vw;
+    padding: 5px; } }
