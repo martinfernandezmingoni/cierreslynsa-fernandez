@@ -1,31 +1,3 @@
-// .header{
-//     display: flex;
-//     justify-content: space-between;
-//     align-content: center;
-//     height: $altoMinimo - 28vh;
-//     &__logo{
-//             margin-left: 1rem;
-//             height: $altoMinimo - 33vh;
-//         }
-            
-//     &__ul{
-//         list-style: none;
-//         &--active{
-//             font-weight: 900;
-//         }
-//         a{
-//             color: $rojoMedio !important;
-//         }
-            
-//         a:hover{
-//             font-weight: bold !important;
-//             color: $uva !important;
-//         }
-//     }
-// }
-// .logo{
-//     width: 33vw;    
-// }
 .container{
     &__navBar{
         background-color: $celestebb;
@@ -35,7 +7,7 @@
         height: $altoMinimo - 28vh;
     }    
     &__logo{
-        margin-left: 100rem;
+        margin-left: 1rem;
         height: $altoMinimo - 33vh;
     }
                 
