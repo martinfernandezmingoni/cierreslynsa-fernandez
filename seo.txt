@@ -1,0 +1,13 @@
+1- Coloque etiquetas meta keywords en todos los html:
+    index: cierres, lynsa, linsa, lynsaci, cremallera;
+    contacto: contacto, busqueda, mapa, preguntas;
+    la empresa: nosotros, empresa, lynsa;
+    carata de colores: colores, carata, variaciones;
+    productos: productos, cierres, fijos, separables;
+
+2- Coloque etiquetas meta contenido en todos los html
+    index: fabrica de cierres a cremallera, lynsa;
+    contacto: contacto con nosotros, nuestros locales;
+    la empresa: nosotros, nuestra empresa;
+    carata de colores: carta de colores, nuestra gama;
+    productos: nuestros productos, tipos de cierres, stock
