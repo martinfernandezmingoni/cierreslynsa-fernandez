@@ -1,6 +1,6 @@
 %estiloParrafo{
     text-align: center;
-    //font-family: $cursiva;
+    font-family: $imprenta;
     font-size: 18px;
 }
 
@@ -8,7 +8,6 @@
 
 @mixin fontStyle ($colorFondo, $padding){
     background-color: $colorFondo;
-    color: $uva;
-    text-transform: uppercase;
+    color: $negro;
     padding: $padding;
 }

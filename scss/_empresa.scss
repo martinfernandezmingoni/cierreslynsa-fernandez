@@ -1,0 +1,5 @@
+.parrafo{
+    @extend %estiloParrafo;
+    @include fontStyle($beigeclaro, 3rem);
+}
+

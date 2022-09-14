@@ -1,11 +1,18 @@
+@import './base/estilosgenerales';
+
 @import './variables/colores';
 @import './variables/fuentes';
-@import './variables/_extend.scss';
+@import './variables/extend.scss';
+@import './variables/tamanios';
 
-@import './base/estilosgenerales';
+
+@import './index';
 @import './header';
 @import './productos';
 @import './body';
+@import './form';
+@import './carta';
+@import './empresa';
 
 
 @import './mediaqueries';
