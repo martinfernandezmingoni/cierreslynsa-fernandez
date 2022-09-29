@@ -1,3 +1,11 @@
-.h3{
-    color: $azul;
+.container{
+    &__h3{
+        color: $azul;
+    }
+
+    &__instag{
+        display: flex;
+        width: 70vw;
+        align-items: center;
+    }
 }
