@@ -1,0 +1,26 @@
+footer{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container{
+    &__sociales{
+        background-color:$gris;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        border-radius: 5px;    
+    }
+    &__sociales a{
+        font-size: 35px;
+        color: #fff;
+    }
+
+    &__pfooter{
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: flex-end;
+    }
+}

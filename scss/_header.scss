@@ -1,14 +1,14 @@
 .container{
     &__navBar{
-        background-color: $celestebb;
+        background-color: $crema;
         display: flex;
         justify-content: space-between;
         align-content: center;
-        height: $altoMinimo - 28vh;
+        height: $altoMinimo -28vh;
     }    
     &__logo{
         margin-left: 1rem;
-        height: $altoMinimo - 33vh;
+        height: $altoMinimo -33vh;
     }
                 
     &__ul{
