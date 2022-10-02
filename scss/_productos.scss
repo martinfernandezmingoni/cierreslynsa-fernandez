@@ -24,6 +24,11 @@
         display: flex;
 
     }
+
+    &__img:hover{
+        transform: scale(1.5);
+    }
+    
 }
  
 
